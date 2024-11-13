@@ -2,7 +2,7 @@
 
 Teams agent is **sample code** that explores how to build a typed teams agent with **TypeChat**. This package contains the schema defintion and implementation for building a Teams Agent that interacts the teams messaging client using Microsoft Graph API. This [article](https://learn.microsoft.com/en-us/graph/tutorials/typescript-app-only?tabs=aad) explores how to work with typescript and Microsoft Graph APIs. Please visit the [link](https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview?view=graph-rest-1.0) to learn about more about email specific Microsoft Graph APIs.
 
-This agent depends on the utility library [graph-utils](../graphUtils/src/teamsClient.ts) to implement different teams actions.
+This agent depends on the utility library [graph-utils](../agentUtils/graphUtils/src/slackClient.ts) to implement different teams actions.
 
 The teams agent uses the Microsoft Graph API to interact with the user's teams conversations. The agent uses `@microsoft/microsoft-graph-client` library to interact with the Microsoft Graph API. The agent enables operations to create group conversations and send teams messages.
 

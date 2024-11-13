@@ -1,10 +1,10 @@
-# Teams Agent
+# Slack Agent
 
 Slack agent is **sample code** that explores how to  build a typed Slack agent with **TypeChat**. This package includes the schema definition and implementation needed for a Slack agent that interacts with Slack channels and messaging using the Slack API.  This [article](https://api.slack.com/) explores how to work with typescript and Slack APIs.
 
-This agent depends on the utility library [graph-utils](../graphUtils/src/slackClient.ts) to implement different slack actions.
+This agent depends on the utility library [graph-utils](../agentUtils/graphUtils/src/slackClient.ts) to implement different slack actions.
 
-The teams agent uses the Microsoft Graph API to interact with the user's teams conversations. The agent uses `@microsoft/microsoft-graph-client` library to interact with the Microsoft Graph API. The agent enables operations to create group conversations and send teams messages.
+The teams agent uses the Microsoft Graph API to interact with the user's teams conversations. The agent uses `@slack/web-api` library to interact with the Slack. The agent enables operations to create channels and send messages to Slack.
 
 To build the email agent, it needs to provide a manifest and an instantiation entry point.  
 These are declared in the `package.json` as export paths:
