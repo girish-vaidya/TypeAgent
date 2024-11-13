@@ -1,0 +1,10 @@
+{
+    "emojiChar": "📩",
+    "description": "Agent integration with MS Graph's teams",
+    "schema": {
+      "description": "Teams agent helps manage teams messages. Use it to send messages etc.",
+      "schemaFile": "./teamsActionsSchema.ts",
+      "schemaType": "TeamsAction"
+    }
+  }
+  

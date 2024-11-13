@@ -18,6 +18,14 @@
       "type": "module",
       "name": "email"
     },
+    "teams": {
+      "type": "module",
+      "name": "teams"
+    },
+    "slack": {
+      "type": "module",
+      "name": "slack"
+    },
     "list": {
       "type": "module",
       "name": "list-agent"

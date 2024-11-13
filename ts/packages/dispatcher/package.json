@@ -51,6 +51,8 @@
     "photo-agent": "workspace:*",
     "proper-lockfile": "^4.1.2",
     "schema-parser": "workspace:*",
+    "slack": "workspace:*",
+    "teams": "workspace:*",
     "telemetry": "workspace:*",
     "typeagent": "workspace:*",
     "typechat": "^0.1.1",

@@ -1,0 +1,10 @@
+{
+    "emojiChar": "📩",
+    "description": "Agent integration with Slack",
+    "schema": {
+      "description": "Slack agent helps manage slack channels and messages. Use it to send messages etc.",
+      "schemaFile": "./slackActionsSchema.ts",
+      "schemaType": "SlackAction"
+    }
+  }
+  
