@@ -121,6 +121,9 @@ export class GraphClient {
                 "mail.send",
                 "user.read.all",
                 "calendars.readwrite",
+                "chat.read",
+                "chat.readwrite",
+                "people.read"
             ],
         };
 
